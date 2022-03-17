@@ -1,0 +1,64 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "bool",
+						"name": "_guess",
+						"type": "bool"
+					}
+				],
+				"name": "flip",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/level3.sol": "ICoinFlip"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/level3.sol": {
+			"keccak256": "0x68d281ad8a013b878f6760103fdb67af39a1c1ec3148433ce0bc4c6bf08c995a",
+			"urls": [
+				"bzz-raw://bed159faf4471d3849f6899b7b7048940dbceafe9b686cfa9b0863dc258cb4d5",
+				"dweb:/ipfs/QmWZbgY8RAJrLe9QwZE7DptSHD5uG7r18GyQAPsAQ6WNWr"
+			]
+		}
+	},
+	"version": 1
+}
